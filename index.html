@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+    <div class="head"><h1>movies</h1></div>
+    <div class="main">
+    <div class="card">
+        <img src="/image/movie1.jpeg" alt="movie1">
+        <div class="content"><a href="cardmovie1.html"><H2>MORE INFO</H2></a> 
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/image/movie2.jpeg" alt="movie1">
+        <div class="content"><a href="cardmovie2.html"><H2>MORE INFO</H2></a> 
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/image/movie3.jpeg" alt="movie1">
+        <div class="content"><a href="cardmovie3.html"><H2>MORE INFO</H2></a> 
+        </div>
+    </div>
+
+    </div>
+</body>
+
+<style>
+
+    h1{
+    color: #333;                    
+    font-size: 2.5em;              
+    font-weight: bold;             
+    font-style: italic;            
+    letter-spacing: 8px;           
+    line-height: 1.5em;            
+    margin-left: 390px;           
+    text-transform: uppercase;    
+    text-shadow: 10px 2px 4px rgba(189, 61, 61, 0.3);
+    }
+
+    .head h1:hover{
+    transform:scale(1.25);
+    display: flex;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    body{
+        background-color: rgb(97, 143, 143);
+    }
+    .card{
+        border-radius: 10px;
+        box-shadow: 10px 10px 8px rgba(25, 26, 26, 0.9);
+        max-width: 950px;
+        height: 350px;
+        text-align: center;
+        overflow: hidden;
+        margin: 30px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-img{
+        width: 10px;
+        height: 400px;
+      transform: scale(1.05);
+
+        
+    }
+
+    
+</style>
+</html>
